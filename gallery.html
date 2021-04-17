@@ -11,32 +11,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <nav class="nav">
-            <a href="index.html" class="nav-logo">Smartech</a>
-            <ul class="nav-list">
-                
-                <li class="nav-item">
-                    <a href="gallery.html" class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Browse</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Reviews</a>
-                </li>
-            </ul>
-            <div class="login">
-                <a href="#" class="nav-link">Login</a>
+    <header>
+        <div class="container">
+          <nav class="navbar">
+            <div class="brand-title"><a href="index.html">Smartech</a></div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
             </div>
-        </nav>
-    </div>
-</header>
-
+          </nav>
+              </div>
+    </header>
 <section class="hero">
     <div class="circle moving-circle">
         <img src="img/ring.png" alt="">
@@ -113,6 +108,7 @@
     &copy; Smartech 2021
 </footer>
 <!--Gsap CDN    -->
+<script src="app.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
 <script>
