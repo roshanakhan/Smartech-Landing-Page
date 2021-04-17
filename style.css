@@ -277,6 +277,22 @@ header{
     outline-width: 2px;
 }
 
+h3 {
+    color: #35b757;
+
+}
+
+h3 a {
+    color: #35b757;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+h3 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .text h1 span{
     color: #35b757;
     outline: black;
