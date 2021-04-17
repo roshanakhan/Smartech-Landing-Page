@@ -123,7 +123,7 @@
       }
   }
 
- @media (max-width: 500px) {
+ @media (max-width: 600px) {
 
      .container .imgs-wrapper {
         flex-direction: column;
@@ -179,7 +179,7 @@
      }
  }
   
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
   
     header {
       background-color: rgba(0, 0, 0, 0.85);
